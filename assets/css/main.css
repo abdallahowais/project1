@@ -27,6 +27,7 @@ body {
 .active {
     font-weight: 800;
 }
+
 a {
     text-decoration: none;
 }
@@ -37,6 +38,7 @@ ul {
     flex-wrap: wrap;
     gap: 20px;
 }
+
 /* header******************************************************************************************************************************** */
 
 
@@ -101,36 +103,270 @@ header .Auth a:nth-child(2) {
     background-color: #545be8;
     color: white;
 }
+
+/* begins******************************************************************************************************************************** */
+.begins {
+    margin-top: 60px;
+    background: #F5F5F5;
+    padding: 60px 0px;
+}
+
+.begins .row {
+    gap: 40px;
+}
+
+.begins .lets-begin {
+    width: calc((100% - 40px)/2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.begins .begin-img {
+    width: calc((100% - 40px)/2);
+
+}
+
+.begins .begin-img img {
+    width: 350px;
+    height: 330px;
+}
+
+.begins .lets-begin .lets-begin-describe {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.begins .lets-begin .lets-begin-describe span::first-line {
+    color: #545BE8;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+#beg {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.begins .lets-begin .lets-begin-describe h2 {
+    color: #141E32;
+    width: 300px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#course {
+    color: #545BE8;
+}
+
+.begins .lets-begin .lets-begin-describe p {
+    color: #969696;
+}
+
+.begins .lets-begin .lets-begin-button {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.begins .lets-begin .lets-begin-button a:first-child {
+    background: #545BE8;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    width: 120.016px;
+    padding: 5.354px 20.181px;
+    justify-content: center;
+    align-items: center;
+}
+
+.begins .lets-begin .lets-begin-button a:nth-child(2) {
+    color: #141E32;
+}
+
+.begins .lets-begin .lets-begin-button svg {
+    width: 30px;
+    height: 30px;
+    box-sizing: content-box;
+}
+
+.begins .lets-begin .lets-begin-button .svg-center {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Services******************************************************************************************************************************** */
+.services .row {
+    padding: 40px 0px;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.services .service-desc {
+    width: calc((100% - 30px)/2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.services .service-desc span {
+    font-family: 'Inter';
+    color: #545BE8;
+}
+
+.services .service-desc h2 {
+    color: #141E32;
+    font-size: 35px;
+}
+
+.services .service-desc p {
+    font-family: 'Inter';
+    color: #969696;
+}
+
+.services .service-item {
+    display: flex;
+    gap: 30px;
+}
+
+.services .professional-teacher,
+.services .course-certificate,
+.services .interesting-learning {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #545BE8;
+    padding: 40px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.services .service-item .white {
+    position: relative;
+    display: flex;
+}
+
+.services .service-item img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+.services .service-item svg {
+    position: absolute;
+    width: 37px;
+    height: 35px;
+}
+
+/* about******************************************************************************************************************************** */
+.abouts {
+    background-color: #272DB0;
+    padding: 40px;
+}
+
+.abouts .row {
+    gap: 30px;
+}
+
+
+.abouts .about-img {
+    width: calc((100% - 30px)/2);
+}
+
+.abouts .about-img img {
+    width: 444px;
+    height: 444px;
+}
+
+.abouts .about-inform {
+    width: calc((100% - 30px)/2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abouts .about-inform .about-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.abouts .about-inform .about-desc span {
+    color: #F0C932;
+    font-size: 16px;
+}
+
+.abouts .about-inform .about-desc h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.abouts .about-inform .about-desc p {
+    color: white;
+    font-size: 14px;
+}
+
+.abouts .about-inform .about-num {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.abouts .about-inform .about-num .view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view span:nth-child(1) {
+    color: #F0C932;
+    font-size: 16px;
+}
+
+.view span:nth-child(2) {
+    color: #DDD;
+    font-size: 14px;
+}
+
 /* courses******************************************************************************************************************************** */
-.Courses{
+.Courses {
     padding: 40px 0px;
     background-color: #fff;
 }
-.Courses .row{
-gap: 30px;
-align-items: stretch;
+
+.Courses .row {
+    gap: 30px;
+    align-items: stretch;
 }
-.Courses .Course-item{
+
+.Courses .Course-item {
     width: calc((100% - 30px) / 2);
-    display: flex;   
+    display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
-.Course{
+
+.Course {
     width: calc((100% - 30px) / 2);
     box-shadow: 5px 5px 10px 10px #0000001A;
 
 
 }
-.Course-card{   
-     position: relative;
+
+.Course-card {
+    position: relative;
 }
-.Courses img{
+
+.Courses img {
     width: 100%;
     object-fit: 135/99;
     display: flex;
 }
-.Course-info{
+
+.Course-info {
     position: absolute;
     top: 0%;
     right: 0%;
@@ -141,23 +377,27 @@ align-items: stretch;
     padding: 15px;
     font-size: 14px;
 }
-.Course-info span:nth-child(1){
+
+.Course-info span:nth-child(1) {
     align-self: flex-start;
     padding: 10px;
     background-color: #545be8;
     color: white;
     border-radius: 15% 0%;
 }
-.Course-info span:nth-child(2){
+
+.Course-info span:nth-child(2) {
     align-self: flex-end;
     color: white;
 }
-.Course-detail .row:nth-child(2){
+
+.Course-detail .row:nth-child(2) {
     justify-content: flex-start;
     color: #969696;
 
 }
-.Course-detail{
+
+.Course-detail {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -167,9 +407,12 @@ align-items: stretch;
 .Course-detail h2 {
     font-size: 20px;
 }
+
 .Course-detail .views {
-color: #545BE8;}
-.Courses .Course-description{
+    color: #545BE8;
+}
+
+.Courses .Course-description {
     display: flex;
     flex-direction: column;
     padding: 0px 30px;
@@ -177,144 +420,165 @@ color: #545BE8;}
     gap: 30px;
 
 }
-.Course-description p:nth-child(1){
+
+.Course-description p:nth-child(1) {
     color: #545BE8;
     font-size: 24px;
 }
-.Course-description h2{
-   font-size: 50px;
-   width: 47px;
+
+.Course-description h2 {
+    font-size: 50px;
+    width: 47px;
 }
-.Course-description p:nth-child(3){
+
+.Course-description p:nth-child(3) {
     color: #969696;
 }
-.Course-description a{
+
+.Course-description a {
     width: fit-content;
     background-color: #545BE8;
     padding: 10px 40px;
     color: white;
     font-family: 'Inter', sans-serif;
     border-radius: 10px;
-} 
+}
+
 /* testimonials******************************************************************************************************************************** */
 
 
 
-.testimonials{
+.testimonials {
     padding: 40px 0px;
     background-color: #fff;
     text-align: center;
 }
-.testimonials h2{
+
+.testimonials h2 {
     margin: 30px;
 }
-.testimonials .row{
-    gap:40px;
+
+.testimonials .row {
+    gap: 40px;
 
 }
-.testimonial{
+
+.testimonial {
     display: flex;
     flex-direction: column;
     gap: 20px 0px;
     box-shadow: 0px 8.2372px 8.2372px 0px rgba(0, 0, 0, 0.10);
     background-color: white;
     padding: 15px;
-    width:calc( (100% - 40px)/2);
+    width: calc((100% - 40px)/2);
     position: relative;
 }
-.testimonial::after{
-    content:'';
+
+.testimonial::after {
+    content: '';
     width: 0;
     height: 0;
-    border-bottom: 35px transparent solid ;
-    border-right: 35px #393E46 solid ;
-    border-left: 35px transparent solid ;
-    border-top: 35px #393E46 solid ;
+    border-bottom: 35px transparent solid;
+    border-right: 35px #393E46 solid;
+    border-left: 35px transparent solid;
+    border-top: 35px #393E46 solid;
     position: absolute;
     top: 0;
     right: 0;
 }
-.user-info{
+
+.user-info {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
-    align-items: center ;
+    align-items: center;
 }
-.user-info img{
+
+.user-info img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
     display: flex;
 }
-.user-info .user-data{
+
+.user-info .user-data {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     gap: 5px;
 }
-.user-data span{
+
+.user-data span {
     font-size: 12px;
     color: #969696;
 }
-.testimonial .ratiing{
+
+.testimonial .ratiing {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
 }
+
 /* foter******************************************************************************************************************************** */
 
 footer {
     background: #393E46;
-    padding:  50px 0px;
+    padding: 50px 0px;
     color: white;
-}
-footer a{
-    color: white;
-    
 }
 
-footer .row{
+footer a {
+    color: white;
+
+}
+
+footer .row {
     gap: 40px;
 
 
 }
+
 .footer-left-side {
     width: calc((100% - 40px)/2);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap:20px
-
+    gap: 20px
 }
-footer  .footer-left-side .logo{
+
+footer .footer-left-side .logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
 }
-.logo img{
+
+.logo img {
     width: 30px;
 }
-.footer-right-side{
+
+.footer-right-side {
     width: calc((100% - 40px)/2);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:10px
+    gap: 10px
 }
+
 .footer-right-side .nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
     gap: 10px;
 }
-footer .icon{
+
+footer .icon {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
 
 }
-footer .icon svg{
+
+footer .icon svg {
     width: 20px;
     height: 20px;
     padding: 10px;
@@ -323,7 +587,7 @@ footer .icon svg{
 }
 
 
-.footer-right-side .footer-item{
+.footer-right-side .footer-item {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
